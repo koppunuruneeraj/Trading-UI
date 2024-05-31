@@ -6,7 +6,7 @@ pipeline {
         stage('Git checkout') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/betawins/Trading-UI.git'
+                git 'https://github.com/Aakarsha99/Trading-UI.git'
                    }
 }
         stage('Install npm prerequisites'){
@@ -14,7 +14,7 @@ pipeline {
                 sh'npm audit fix'
                 sh'npm install'
                 sh'npm run build'
-                sh'cd /var/lib/jenkins/workspace/Trading-ui-pipeline/build'
+                sh'cd /var/lib/jenkins/workspace/nodejs/build'
                 sh'pm2 --name Trading-UI start npm -- start'
             }
         }
