@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import axios from 'axios'
-import { withTranslation } from 'react-i18next';
+// import { withTranslation } from 'react-i18next';
 import './Login.css'
 import url from '../../config.json'
-import { withRouter } from 'react-router-dom';
+// import { withRouter } from 'react-router-dom';
 import validate from '../../Utils/Validator'
 
 export class Login extends Component {

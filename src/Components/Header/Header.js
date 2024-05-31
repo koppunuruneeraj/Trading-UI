@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 //import INGlogo from '../Assets/Images/Logo.png'
 import './Header.css'
-import { Link, withRouter } from 'react-router-dom';
-import { withTranslation } from 'react-i18next';
+// import { Link, withRouter } from 'react-router-dom';
+// import { withTranslation } from 'react-i18next';
 
 
 class Header extends Component {
