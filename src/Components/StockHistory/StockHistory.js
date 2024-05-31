@@ -33,13 +33,7 @@ export class StockHistory extends Component {
                 <table className="breachtable">
                             <thead className="tableheading">
                                 <tr>
-                                    <th scope="col">Ordered Date</th>
-                                    <th scope="col">Stock Name</th>
-                                    <th scope="col">Unit Price</th>
-                                    <th scope="col">Quantity</th>
-                                    <th scope="col">Total Price</th>
-                                    <th scope="col">Status</th>
-
+                                    <th>...</th>
                                 </tr>
                             </thead>
                             <tbody>

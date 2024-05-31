@@ -32,10 +32,7 @@ export class ListStocks extends Component {
                 <table className="breachtable">
                             <thead className="tableheading">
                                 <tr>
-                                    <th scope="col">Stock Name</th>
-                                    <th scope="col">Unit Price</th>
-                                    <th scope="col">Stock Exchange</th>
-                                    <th scope="col">CRISIL Rating</th>
+                                    <th>...</th>
                                 </tr>
                             </thead>
                             <tbody>

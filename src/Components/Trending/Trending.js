@@ -54,8 +54,7 @@ export class Trending extends Component {
                 <table className="breachtable">
                     <thead className="tableheading">
                         <tr>
-                            <th scope="col">Stock Name</th>
-                            <th scope="col">CRISIL Rating</th>
+                            <th>...</th>
                         </tr>
                     </thead>
                     <tbody>
