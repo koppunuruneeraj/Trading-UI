@@ -12,7 +12,7 @@ pipeline {
         stage('Install npm prerequisites'){
             steps{
                 sh 'echo runnning npm audit fix first command'
-                sh'npm audit fix'
+                sh'npm audit fix --force'
             }
         }
     }
