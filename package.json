@@ -23,7 +23,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build:staging": "env-cmd -f .env.staging npm run build",
+    "build:stagging": "env-cmd -f .env.stagging SKIP_PREFLIGHT_CHECK=true"
   },
   "homepage": "./",
   "browserslist": {
@@ -39,3 +41,4 @@
     ]
   }
 }
+
