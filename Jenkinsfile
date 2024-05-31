@@ -13,7 +13,6 @@ pipeline {
             steps{
                 sh 'echo runnning npm audit fix first command'
                 sh'npm update'
-                sh'npm install'
                 sh'npm run build'
             }
         }
