@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import url from '../../config.json'
-import axios from 'axios'
+// import axios from 'axios' //
 import './StockHistory.css'
 export class StockHistory extends Component {
     constructor(props){

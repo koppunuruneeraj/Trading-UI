@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import url from '../../config.json'
-import axios from 'axios'
+ // import axios from 'axios' //
 import { BarChart, Bar, XAxis, YAxis, Cell, CartesianGrid, Tooltip, Legend } from 'recharts';
 import './Trending.css'
 export class Trending extends Component {

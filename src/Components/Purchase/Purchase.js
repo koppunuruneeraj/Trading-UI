@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 import './Purchase.css'
-import axios from 'axios'
+// import axios from 'axios' //
 import url from '../../config.json'
-import Axios from 'axios';
+// import Axios from 'axios'; //
 import SweetAlert from 'sweetalert-react';
 export class Purchase extends Component {
     constructor(props) {
