@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import './Header.css'
 // import { Link, withRouter } from 'react-router-dom';
 // import { withTranslation } from 'react-i18next';
+import { withTranslation } from 'react-i18next';
+import { withRouter } from 'react-router-dom';
 
 
 class Header extends Component {
@@ -37,4 +39,5 @@ class Header extends Component {
         )
     }
 }
-export default withTranslation()(withRouter(Header));
+// export default withTranslation()(withRouter(Header));
+export default withRouter(withTranslation()(Header));
